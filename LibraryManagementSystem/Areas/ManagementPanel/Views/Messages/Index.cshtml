@@ -1,0 +1,80 @@
+﻿@model IEnumerable<LibraryManagementSystem.Entites.Models.Message>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/ManagementPanel/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Adı Soyadı
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Telefon No
+            </th>
+            <th>
+                Konu
+            </th>
+            <th>
+                Detayları
+            </th>
+            <th>
+                Durumu
+            </th>
+            <th>
+                Tarih
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.FullName
+            </td>
+            <td>
+                @item.Email
+            </td>
+            <td>
+                @item.Phone
+            </td>
+            <td>
+                @item.Subject
+            </td>
+            <td>
+                @if (@item.Description.Length > 20)
+                {
+                   <p>@item.Description.Substring(0, 20)  ...</p>   
+                }
+                else{
+                    <p>@item.Description</p>
+                }
+            </td>
+            <td>
+                @if (item.İsActive == true)
+                {
+                    <p>Aktif</p>
+                }
+                else{
+                    <p>Pasif</p>
+                }
+            </td>
+            <td>
+                @item.RegisterDate
+            </td>
+            <td>
+                <a class="btn btn-primary" href="@Url.Action("Details", "Messages", new{id = item.Id})">Detay</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

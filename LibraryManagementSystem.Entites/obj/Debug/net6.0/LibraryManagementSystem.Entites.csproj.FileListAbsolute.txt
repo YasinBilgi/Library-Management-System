@@ -1,0 +1,14 @@
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\bin\Debug\net6.0\LibraryManagementSystem.Entites.deps.json
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\bin\Debug\net6.0\LibraryManagementSystem.Entites.runtimeconfig.json
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\bin\Debug\net6.0\LibraryManagementSystem.Entites.dll
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\bin\Debug\net6.0\LibraryManagementSystem.Entites.pdb
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\LibraryManagementSystem.Entites.csproj.AssemblyReference.cache
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\LibraryManagementSystem.Entites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\LibraryManagementSystem.Entites.AssemblyInfoInputs.cache
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\LibraryManagementSystem.Entites.AssemblyInfo.cs
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\LibraryManagementSystem.Entites.csproj.CoreCompileInputs.cache
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\LibraryManagementSystem.Entites.dll
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\refint\LibraryManagementSystem.Entites.dll
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\LibraryManagementSystem.Entites.pdb
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\LibraryManagementSystem.Entites.genruntimeconfig.cache
+C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem.Entites\obj\Debug\net6.0\ref\LibraryManagementSystem.Entites.dll

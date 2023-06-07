@@ -1,0 +1,91 @@
+﻿@model IEnumerable<LibraryManagementSystem.Entites.Models.Book>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/ManagementPanel/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kitaplar</h1>
+
+    <a class="btn btn-primary" href="@Url.Action("Create", "Books")">Yeni Ekle</a>
+
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Kategori
+            </th>
+            <th>
+                Resim
+            </th>
+            <th>
+                Adı
+            </th>
+            <th>
+                Sayfa Sayısı
+            </th>
+            <th>
+                Yayın Tarihi
+            </th>
+            <th>
+                Durumu
+            </th>
+            <th>
+                Tarih
+            </th>
+            <th>
+                Detay
+            </th>
+            <th>
+                Düzenle
+            </th>
+ 
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.Category.Name
+            </td>
+            <td>
+                <img decoding="async" src="@item.İmageUrl" width="100px" asp-append-version="true" />
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Isbn
+            </td>
+            <td>
+                @item.NumberPage
+            </td>
+            <td>
+                @item.PublishDate.Value.ToString("dd MMMM yyyy HH:mm")
+            </td>
+            <td>
+                @if (item.İsActive == true)
+                {
+                    <p>Aktif</p>  
+                }
+                else{
+                    <p>Pasif</p>
+                }
+            </td>
+            <td>
+                @item.RegisterDate.Value.ToString("dd MMMM yyyy HH:mm")
+            </td>
+            
+            <td>
+                    <a class="btn btn-danger" href="@Url.Action("Details", "Books", new{id = item.İd})">Detay</a>
+            </td>
+
+            <td>
+                    <a class="btn btn-warning" href="@Url.Action("Edit", "Books", new{id = item.İd})">Düzenle</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

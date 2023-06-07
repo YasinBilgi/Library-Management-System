@@ -1,0 +1,117 @@
+﻿@model LibraryManagementSystem.Entites.Models.MainPage
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/ManagementPanel/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>MainPage</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="SliderİmageUrl1" class="control-label"></label>
+                <input asp-for="SliderİmageUrl1" class="form-control" />
+                <span asp-validation-for="SliderİmageUrl1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SliderİmageUrl2" class="control-label"></label>
+                <input asp-for="SliderİmageUrl2" class="form-control" />
+                <span asp-validation-for="SliderİmageUrl2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SliderİmageUrl3" class="control-label"></label>
+                <input asp-for="SliderİmageUrl3" class="form-control" />
+                <span asp-validation-for="SliderİmageUrl3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SliderTitle1" class="control-label"></label>
+                <input asp-for="SliderTitle1" class="form-control" />
+                <span asp-validation-for="SliderTitle1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SliderTite2" class="control-label"></label>
+                <input asp-for="SliderTite2" class="form-control" />
+                <span asp-validation-for="SliderTite2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SliderTitle3" class="control-label"></label>
+                <input asp-for="SliderTitle3" class="form-control" />
+                <span asp-validation-for="SliderTitle3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SliderSubtitle1" class="control-label"></label>
+                <input asp-for="SliderSubtitle1" class="form-control" />
+                <span asp-validation-for="SliderSubtitle1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SliderSubtitle2" class="control-label"></label>
+                <input asp-for="SliderSubtitle2" class="form-control" />
+                <span asp-validation-for="SliderSubtitle2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SliderSubtitle3" class="control-label"></label>
+                <input asp-for="SliderSubtitle3" class="form-control" />
+                <span asp-validation-for="SliderSubtitle3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceTitle1" class="control-label"></label>
+                <input asp-for="ServiceTitle1" class="form-control" />
+                <span asp-validation-for="ServiceTitle1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceTitle2" class="control-label"></label>
+                <input asp-for="ServiceTitle2" class="form-control" />
+                <span asp-validation-for="ServiceTitle2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceTitle3" class="control-label"></label>
+                <input asp-for="ServiceTitle3" class="form-control" />
+                <span asp-validation-for="ServiceTitle3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceDescription1" class="control-label"></label>
+                <input asp-for="ServiceDescription1" class="form-control" />
+                <span asp-validation-for="ServiceDescription1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceDescription2" class="control-label"></label>
+                <input asp-for="ServiceDescription2" class="form-control" />
+                <span asp-validation-for="ServiceDescription2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceDescription3" class="control-label"></label>
+                <input asp-for="ServiceDescription3" class="form-control" />
+                <span asp-validation-for="ServiceDescription3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastSavedTitle" class="control-label"></label>
+                <input asp-for="LastSavedTitle" class="form-control" />
+                <span asp-validation-for="LastSavedTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="İsActive" class="control-label"></label>
+                <input asp-for="İsActive" class="form-control" />
+                <span asp-validation-for="İsActive" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RegisterDate" class="control-label"></label>
+                <input asp-for="RegisterDate" class="form-control" />
+                <span asp-validation-for="RegisterDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<LibraryManagementSystem.Entites.Models.Author>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/ManagementPanel/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Yazarlar</h1>
+
+<a class="btn btn-primary" href="@Url.Action("Create", "Authors")">Yeni Ekle</a>
+
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Adı Soyadı
+            </th>
+            <th>
+                Doğum Tarihi
+            </th>
+            <th>
+                Biografi
+            </th>
+            <th>
+                Resim
+            </th>
+            <th>
+                Durumu
+            </th>
+            <th>
+                Tarih
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.FullName
+            </td>
+            <td>
+                @item.BirthDate.Value.ToString("dd MMMM yyyy HH:mm")
+            </td>
+            <td>
+                @item.Biography
+            </td>
+            <td>
+                <img decoding="async" src="@item.İmageUrl" width="100px" asp-append-version="true" />
+            </td>
+            <td>
+                @if (item.İsActive == true)
+                {
+                    <p>Aktif</p>    
+                }
+                else{
+                    <p>Pasif</p>
+                }
+            </td>
+            <td>
+                @item.RegisterDate.Value.ToString("dd MMMM yyyy HH:mm")
+            </td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Details", "Authors", new{id = item.Id})">Detay</a>
+                </td>
+            <td>
+                  <a class="btn btn-warning" href="@Url.Action("Edit", "Authors", new{id = item.Id})">Düzenle</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

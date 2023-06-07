@@ -1,0 +1,156 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LibraryManagementSystem
+build_property.RootNamespace = LibraryManagementSystem
+build_property.ProjectDir = C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\yasin\OneDrive\Documents\Dersler\LibraryManagementSystem\LibraryManagementSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Abouts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEFib3V0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Abouts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEFib3V0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Authors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEF1dGhvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Authors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEF1dGhvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Authors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEF1dGhvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Authors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEF1dGhvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Authors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEF1dGhvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEJvb2tzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEJvb2tzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEJvb2tzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEJvb2tzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXEJvb2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXENhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXENhdGVnb3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXENvbnRhY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXENvbnRhY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/MainPages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXE1haW5QYWdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/MainPages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXE1haW5QYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Messages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXE1lc3NhZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Messages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXE1lc3NhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXFNoYXJlZFxfRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Shared/_Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXFNoYXJlZFxfSGVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXFNoYXJlZFxfSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXFNoYXJlZFxfU2NyaXB0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Areas/ManagementPanel/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFBhbmVsXFZpZXdzXFNoYXJlZFxfU2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/OneDrive/Documents/Dersler/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-spbznog2vl

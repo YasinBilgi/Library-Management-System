@@ -1,0 +1,53 @@
+﻿@model IEnumerable<LibraryManagementSystem.Entites.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/ManagementPanel/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kategoriler</h1>
+
+    <a class="btn btn-primary" href="@Url.Action("Create", "Categories")">Yeni Ekle</a>
+
+    <hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Adı
+            </th>
+            <th>
+                Durumu
+            </th>
+            <th>
+                Tarih
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @if (item.İsActive == true)
+                {
+                    <p>Aktif</p>  
+                }
+                else{
+                    <p>Pasif</p>
+                }
+            </td>
+            <td>
+                @item.RegisterDate.Value.ToString("dd MMMM yyyy HH:mm")
+            </td>
+            <td>
+                <a class="btn btn-warning" href="@Url.Action("Edit", "Categories", new{id = item.Id})">Düzenle</a>
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

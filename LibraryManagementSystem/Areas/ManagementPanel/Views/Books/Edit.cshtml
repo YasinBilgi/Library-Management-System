@@ -1,0 +1,100 @@
+﻿@model LibraryManagementSystem.Entites.Models.Book
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/ManagementPanel/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Düzenle</h1>
+
+@using (Html.BeginForm("Edit", "Books", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new {@class="text-danger"})
+        @Html.HiddenFor(model => model.İd)
+
+
+        <label class="control-label col-md-2">Resim</label>
+        @*İmage*@
+        <div class="form-group">
+            @*  @Html.LabelFor(model => model.İmageUrl, htmlAttributes: new {@class = "control-label col-md-2"})*@
+
+            <div class="col-md-10">
+                <input type="file" accept="image/*" name="img" id="img" />
+            </div>
+        </div>
+
+        @Html.DropDownList("CategoryId", (SelectList)ViewData["CategoryId"], "--Kategori Seç--")
+
+        <br />
+
+        <label class="control-label col-md-2">Adı</label>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new {htmlAttibutes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.Name, "", new {@Classs = "text-danger"})
+            </div>
+        </div>
+
+        <label class="control-label col-md-2">Seri Numarası</label>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Isbn, new {htmlAttibutes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.Isbn, "", new {@Classs = "text-danger"})
+            </div>
+        </div>
+
+        <label class="control-label col-md-2">Sayfa Sayısı</label>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NumberPage, new {htmlAttibutes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.NumberPage, "", new {@Classs = "text-danger"})
+            </div>
+        </div>
+
+        <label class="control-label col-md-2">Yayın Tarihi</label>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PublishDate, new {htmlAttibutes = new {@class = "form-control", @type="datetime"}})
+                @Html.ValidationMessageFor(model => model.PublishDate, "", new {@Classs = "text-danger"})
+            </div>
+        </div>
+
+        <label class="control-label col-md-2">Stok</label>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.BookDetail.Stock, new {htmlAttibutes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.BookDetail.Stock, "", new {@Classs = "text-danger"})
+            </div>
+        </div>
+
+        <label class="control-label col-md-2">Açıklama</label>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.BookDetail.Description, new {htmlAttibutes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.BookDetail.Description, "", new {@Classs = "text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.İsActive, htmlAttributes: new {@class = "control-label col-md-2"})
+
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.İsActive, new SelectList(
+            new[]{
+            new{Value = "true", Text = "Aktif"},
+            new{Value = "false", Text = "Pasif"}
+            },
+            "Value",
+            "Text",
+            Model.İsActive), new{@class = "form-control"})
+            </div>
+            @Html.ValidationMessageFor(model => model.İsActive, "",
+        new {@class = "text-danger"})
+        </div>
+
+        <br />
+        <input type="submit" value="Kaydet" class="btn btn-primary" />
+    </div>
+}

@@ -1,0 +1,73 @@
+﻿@model LibraryManagementSystem.Entites.Models.Contact
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/ManagementPanel/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@Model.Title</h1>
+
+<h2>@Model.Subtitle</h2>
+
+<div class="row">
+<div class="col-12 col-lg-2">
+							<div class="card radius-15 bg-info">
+								<div class="card-body text-center">
+									<div class="widgets-icons mx-auto rounded-circle bg-white"><i class="bx bx-bookmark-alt"></i>
+									</div>
+									<h4 class="mb-0 font-weight-bold mt-3 text-white">Phone</h4>
+									<p class="mb-0 text-white">@Model.Phone</p>
+								</div>
+							</div>
+						</div>
+<div class="col-12 col-lg-2">
+							<div class="card radius-15 bg-wall">
+								<div class="card-body text-center">
+									<div class="widgets-icons mx-auto bg-white rounded-circle"><i class="bx bx-user"></i>
+									</div>
+									<h4 class="mb-0 font-weight-bold mt-3 text-white">Email</h4>
+									<p class="mb-0 text-white">@Model.Email</p>
+								</div>
+							</div>
+						</div>
+<div class="col-12 col-lg-2">
+							<div class="card radius-15 bg-rose">
+								<div class="card-body text-center">
+									<div class="widgets-icons mx-auto bg-white rounded-circle"><i class="bx bx-cloud-download"></i>
+									</div>
+									<h4 class="mb-0 font-weight-bold mt-3 text-white">Adres</h4>
+									<p class="mb-0 text-white">@Model.Address</p>
+								</div>
+							</div>
+						</div>
+<div class="col-12 col-lg-2">
+							<div class="card radius-15">
+								<div class="card-body text-center">
+									<div class="widgets-icons mx-auto bg-light-primary text-primary rounded-circle"><i class="bx bx-upload"></i>
+									</div>
+									<h4 class="mb-0 font-weight-bold mt-3">Lokasyon</h4>
+									<p class="mb-0">@Model.Latitude - @Model.Longitude</p>
+								</div>
+							</div>
+						</div>
+<div class="col-12 col-lg-2">
+							<div class="card radius-15">
+								<div class="card-body text-center">
+									<div class="widgets-icons mx-auto bg-light-success text-success rounded-circle"><i class="bx bx-comment-detail"></i>
+									</div>
+									<h4 class="mb-0 font-weight-bold mt-3">984</h4>
+									<p class="mb-0">I</p>
+								</div>
+							</div>
+						</div>
+<div class="col-12 col-lg-2">
+							<div class="card radius-15">
+								<div class="card-body text-center">
+									<div class="widgets-icons mx-auto bg-light-warning text-warning rounded-circle"><i class="bx bx-comment-detail"></i>
+									</div>
+									<h4 class="mb-0 font-weight-bold mt-3">12.5%</h4>
+									<p class="mb-0">S</p>
+								</div>
+							</div>
+						</div>
+</div>
